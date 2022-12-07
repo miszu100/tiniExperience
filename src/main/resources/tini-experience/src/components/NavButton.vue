@@ -1,12 +1,15 @@
 <template>
     <div class="container">
-        <button>Text</button>
+        <button>{{ title }}</button>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'Nav-Button'
+    name: 'Nav-Button',
+    props: {
+        title: String
+    }
 }
 </script>
 
