@@ -1,14 +1,17 @@
 <template>
   <web-header-vue></web-header-vue>
+  <router-view/>
 </template>
 
 <script>
 
 import WebHeaderVue from './components/WebHeader.vue';
+//import WebRoutingVue from './components/WebRouting.vue'
 export default {
   name: 'App',
   components: {
-    WebHeaderVue
+    WebHeaderVue,
+    //WebRoutingVue
   }
 }
 </script>

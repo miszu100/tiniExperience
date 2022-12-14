@@ -1,6 +1,8 @@
 <template>
     <div class="container">
-        <button>{{ title }}</button>
+        <router-link :to="('/' + checkIfHome(title).toLowerCase())">
+            <button>{{ title }}</button>
+        </router-link>
     </div>
 </template>
 
@@ -9,6 +11,14 @@ export default {
     name: 'Nav-Button',
     props: {
         title: String
+    },
+    methods: {
+        checkIfHome: function (title) {
+            if (title === "Home") {
+                return '';
+            }
+            return title;
+        }
     }
 }
 </script>
@@ -34,6 +44,7 @@ export default {
         button:hover {
             background-color: white;
             color: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
     }
 </style>
