@@ -1,5 +1,7 @@
 <template>
-    <div>Musik Hello World!</div>
+    <div class="view">
+        Musik Hello World!
+    </div>
 </template>
 
 <script>

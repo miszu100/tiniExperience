@@ -1,5 +1,7 @@
 <template>
-    <div>Livestream Hello World!</div>
+    <div class="view">
+        Livestream Hello World!
+    </div>
 </template>
 
 <script>

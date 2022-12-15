@@ -1,5 +1,7 @@
 <template>
-    <div>Sonstiges Hello World!</div>
+    <div class="view">
+        Sonstiges Hello World!
+    </div>
 </template>
 
 <script>

@@ -1,5 +1,7 @@
 <template>
-    <div>Festival Hello World!</div>
+    <div class="view">
+        Festival Hello World!
+    </div>
 </template>
 
 <script>
