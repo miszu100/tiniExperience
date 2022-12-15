@@ -1,5 +1,5 @@
 <template>
-    <div id="footer">
+    <div id="footer-container">
         Footer
     </div>
 </template>
@@ -11,7 +11,8 @@ export default {
 </script>
 
 <style lang="scss">
-    #footer {
+    #footer-container {
         background-color: lightblue;
+        height: 100%;
     }
 </style>
